@@ -24,13 +24,9 @@ jobs:
         # The Node.js version to configure
         with:
           node-version: '14'
-          check-latest: true
        - name: npm install
          run: |
           make install
        - name: run eslint
 	 run: |
           make lint
-       
-		
-    
