@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import getUserName from '../src/cli.js';
+import getUserAnswer from '../src/theEvenGame.js';
 
-getUserName();
+getUserAnswer();
