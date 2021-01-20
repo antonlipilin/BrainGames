@@ -42,4 +42,4 @@ Let's try again, ${name}!`);
   }
 };
 
-calculator();
+export default calculator;
