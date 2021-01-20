@@ -6,7 +6,7 @@ const name = getUserName();
 
 const getUserAnswer = () => {
   let counterCorrectAnswers = 0;
-
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   while (true) {
     if (counterCorrectAnswers === 3) {
       console.log(`Congratulations, ${name}!`);
@@ -14,7 +14,6 @@ const getUserAnswer = () => {
     }
 
     const number = getRandomNumber();
-    console.log('Answer "yes" if the number is even, otherwise answer "no".');
     console.log(`Question: ${number}`);
     const userAnswer = readlineSync.question('Your answer: ');
     const correctAnswer = (number % 2 === 0) ? 'yes' : 'no';
