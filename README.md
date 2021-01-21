@@ -4,3 +4,4 @@
 [![Actions Status](https://github.com/antonlipilin/frontend-project-lvl1/workflows/Node%20CI/badge.svg)](https://github.com/antonlipilin/frontend-project-lvl1/actions)
 [![asciicast](https://asciinema.org/a/eT4W09nxFJZRrZDjMLrQnFsZh.svg)](https://asciinema.org/a/eT4W09nxFJZRrZDjMLrQnFsZh)
 [![asciicast](https://asciinema.org/a/jSelVkXF5xgy27XPj3i726sS2.svg)](https://asciinema.org/a/jSelVkXF5xgy27XPj3i726sS2)
+[![asciicast](https://asciinema.org/a/4YA1gt1Vz7NM2WpCKNFBwHa6l.svg)](https://asciinema.org/a/4YA1gt1Vz7NM2WpCKNFBwHa6l)
