@@ -16,8 +16,8 @@ const gcdGame = () => {
       console.log(`Congratulations, ${name}!`);
       return;
     }
-    const firstNumber = Math.round(Math.random() * 1000);
-    const secondNumber = Math.round(Math.random() * 1000);
+    const firstNumber = Math.round(Math.random() * 100);
+    const secondNumber = Math.round(Math.random() * 100);
     const correctAnswer = String(getGreatestDivisor(firstNumber, secondNumber));
     console.log(`Question: ${firstNumber} ${secondNumber}`);
     const userAnswer = readlineSync.question('Your answer: ');
