@@ -51,7 +51,8 @@ const progressionGame = () => {
     }
     const sequenceStep = getRandomStep();
     const sequence = makeSequence(sequenceStep);
-    console.log(`Question: ${sequence}`);
+    const sequenceToString = sequence.join(' ');
+    console.log(`Question: ${sequenceToString}`);
     const userAnswer = readlineSync.question('Your answer: ');
     const correctAnswer = String(getMissingNumber(sequence, sequenceStep));
     const isAnswersAreIdentical = userAnswer === correctAnswer;
